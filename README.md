@@ -9,7 +9,7 @@ Weather app adalah aplikasi yang dirancang menggunakan framework IONIC. Aplikasi
 <img src="./assets/previewapp.gif"></img>
 
 <h1>LINK GOOGLE DRIVE</h1>
-<a href="https://drive.google.com/file/d/1ydDfh4VsPNbg5BtV6DEj-TAFvijN6YhT/view?usp=sharing">Pencet Disini</a>
+<a href="https://drive.google.com/file/d/1fVD0T16ePXaYRDToWzOXe20zLzqgVs6d/view?usp=sharing">Pencet Disini</a>
 
 <h1>FITUR APLIKASI</h1>
 
