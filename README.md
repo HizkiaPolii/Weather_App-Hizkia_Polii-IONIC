@@ -6,7 +6,7 @@ Weather app adalah aplikasi yang dirancang menggunakan framework IONIC. Aplikasi
 
 <h1>PREVIEW</h1>
 
-![Preview-app](https://github.com/user-attachments/assets/58c0b059-612c-4661-b4f6-f3abf10fe154)
+<img src="./assets/previewapp.gif"></img>
 
 <h1>LINK GOOGLE DRIVE</h1>
 <a href="https://drive.google.com/file/d/1ydDfh4VsPNbg5BtV6DEj-TAFvijN6YhT/view?usp=sharing">Pencet Disini</a>
@@ -19,16 +19,16 @@ Weather app adalah aplikasi yang dirancang menggunakan framework IONIC. Aplikasi
 <h1>PENGINSTALLAN</h1>
 
 1.  Lakukan Clone Repository
-`git clone https://github.com/HizkiaPolii/Metric_Converter-Hizkia_Polii-IONIC.git`
+    `git clone hhttps://github.com/HizkiaPolii/Weather_App-Hizkia_Polii-IONIC.git`
 
 2.Masuk ke Direktori Proyek
-`cd metric-converter`
+`cd weather-app`
 
-3. Instal 
-`npm install`
+3. Instal
+   `npm install`
 
-4. Jalankan 
-`npm start`
+4. Jalankan
+   `npm start`
 
 Aplikasi akan terbuka di browser default dengan url `http://localhost:8100`.
 
