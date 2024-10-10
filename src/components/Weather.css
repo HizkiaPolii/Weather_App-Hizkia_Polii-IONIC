@@ -1,0 +1,114 @@
+/* Base style, untuk layar besar */
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-top: 15px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding-left: 25px;
+  background-color: #4f94cd;
+  color: black;
+}
+
+button {
+  height: 30px;
+  margin-left: 20px;
+  border-radius: 30px;
+  background-color: #4f94cd;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+h3,
+p {
+  color: black;
+  font-weight: bold;
+}
+
+img {
+  height: 10em; /* Ukuran gambar default */
+}
+
+.weather-info {
+  text-align: center;
+}
+
+.weather-cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center; /* Untuk merapikan kartu di tengah */
+}
+
+.weather-card {
+  background-color: #4f94cd;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  text-align: center;
+}
+
+.weather-card img {
+  height: 2em;
+}
+.weather-card h3 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: black;
+}
+
+.weather-card p {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+}
+
+/* Responsive untuk layar lebih kecil, seperti mobile */
+@media (max-width: 600px) {
+  .weather-container {
+    padding: 10px; /* Kurangi padding untuk layar kecil */
+  }
+
+  .weather-cards {
+    display: flex;
+    gap: 5px;
+    margin-top: 15px;
+    justify-content: center;
+  }
+
+  .weather-card {
+    width: 50%; /* Kartu menyesuaikan lebar layar */
+    max-width: 300px; /* Beri batas lebar maksimal agar tidak terlalu besar */
+    padding: 15px; /* Kurangi padding untuk tampilan yang lebih baik */
+  }
+
+  .weather-card h3 {
+    font-size: 20px;
+  }
+
+  .weather-card p {
+    font-size: 14px; /* Sesuaikan ukuran font paragraf */
+  }
+
+  img {
+    height: 8em; /* Kurangi ukuran gambar agar pas di layar kecil */
+  }
+
+  input {
+    width: 70%; /* Input menyesuaikan lebar layar */
+    max-width: 300px; /* Batas maksimal lebar input */
+  }
+}
