@@ -1,6 +1,6 @@
 <h1>Weather_App-Hizkia_Polii-IONIC</h1>
 
-![naruhodo-i-see](https://github.com/user-attachments/assets/a1d2d01d-19b2-495e-a7a6-4ea071b9bcec)
+<img src="./assets/naruhodo-i-see.gif"></img>
 
 Weather app adalah aplikasi yang dirancang menggunakan framework IONIC. Aplikasi ini menyediakan informasi cuaca terkini, termasuk suhu, kelembapan, kecepatan angin, dan prakiraan cuaca untuk berbagai lokasi.
 
