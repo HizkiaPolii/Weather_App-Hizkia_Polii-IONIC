@@ -1,0 +1,24 @@
+ion-toolbar {
+  --background: linear-gradient(45deg, #5f6368, #2c3e50, #000000);
+  --color: white;
+}
+
+ion-content {
+  --ion-background-color: linear-gradient(45deg, #4f94cd, #708090, #2f4f4f);
+}
+ion-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(45deg, #5f6368, #2c3e50, #000000);
+  color: white;
+}
+
+ion-footer p {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+}
